@@ -3,7 +3,7 @@
 > Auto-generated drafts on 2025-09-19 01:30. Please review and refine module-specific sections before publishing.
 
 ## Repository Structure (suggested)
-
+```
 .
 ├─ All_vege_price_prediction/     # all-vegetable pipelines
 ├─ cabbage_price_prediction/      # cabbage-focused experiments
@@ -14,6 +14,8 @@
 ├─ high.pkl/                      # high-volatility artifacts
 ├─ low pkl/                       # low-volatility artifacts
 └─ README.md
+
+```
 
 ## 模組說明
 
