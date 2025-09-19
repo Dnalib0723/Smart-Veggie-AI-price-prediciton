@@ -37,8 +37,8 @@
 ### XGBoost+ SHAP (所有特徵 + SHAP特徵篩選 + sliding window cross-validation)
 結合 XGBoost 與 SHAP 解釋器，分析重要天氣與季節特徵對價格的貢獻，提供可視化報告，提升模型透明度與決策支持。
 
-### high.pkl (XGBoost + 精選特徵 + sliding window cross-validation)
+### high.pkl (XGBoost + 精選氣象特徵 + sliding window cross-validation)
 保存高波動蔬菜群的模型與資料序列化檔，支援快速載入與推論，主要作為重現性與部署的中繼成果。
 
-### low pkl (XGBoost + 精選特徵 + sliding window cross-validation)
+### low pkl (XGBoost + 精選氣象特徵 + sliding window cross-validation)
 保存低波動蔬菜群的模型與資料序列化檔，用於對照高波動群，驗證特徵影響與模型穩定性，提升整體分析完整度。
