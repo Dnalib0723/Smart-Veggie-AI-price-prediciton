@@ -1,8 +1,9 @@
-# Smart‑Veggie Price Prediction — Consolidated README
+# Smart-Veggie Price Prediction — Consolidated README
 
-> Auto-generated drafts on 2025-09-19 01:30. Please review and refine module‑specific sections before publishing.
+> Auto-generated drafts on 2025-09-19 01:30. Please review and refine module-specific sections before publishing.
 
 ## Repository Structure (suggested)
+
 ```
 .
 ├─ All_vege_price_prediction/     # all-vegetable pipelines
