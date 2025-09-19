@@ -4,7 +4,6 @@
 
 ## Repository Structure (suggested)
 
-```
 .
 ├─ All_vege_price_prediction/     # all-vegetable pipelines
 ├─ cabbage_price_prediction/      # cabbage-focused experiments
