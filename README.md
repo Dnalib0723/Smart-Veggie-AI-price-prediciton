@@ -28,17 +28,17 @@
 ### clustering code- All vegetable prices clustering code
 提供結合dynamic time warping (DTW)分析+K-means聚類方法與工具，用於依價格波動或季節趨勢將蔬菜分群，並輸出分群圖表與穩定性指標，支持解釋與分群建模。
 
-### Prophet
+### Prophet (+ sliding window cross-validation)
 基於 Prophet 的時間序列模型，納入天氣與產量特徵，支援快速建模與解釋季節性、趨勢與節日效應，驗證多種超參數設定。
 
-### XGBoost (所有特徵)
+### XGBoost (所有特徵 + sliding window cross-validation)
 以 XGBoost 為核心的預測模組，包含訓練、交叉驗證並執行SelectFromModel(SFM)特徵重要性分析，比較保留氣象與移除氣象特徵的結果，捕捉非線性與高維特徵對菜價的影響。
 
-### XGBoost+ SHAP (所有特徵 + SHAP特徵篩選)
+### XGBoost+ SHAP (所有特徵 + SHAP特徵篩選 + sliding window cross-validation)
 結合 XGBoost 與 SHAP 解釋器，分析重要天氣與季節特徵對價格的貢獻，提供可視化報告，提升模型透明度與決策支持。
 
-### high.pkl (XGBoost + 精選特徵)
+### high.pkl (XGBoost + 精選特徵 + sliding window cross-validation)
 保存高波動蔬菜群的模型與資料序列化檔，支援快速載入與推論，主要作為重現性與部署的中繼成果。
 
-### low pkl (XGBoost + 精選特徵)
+### low pkl (XGBoost + 精選特徵 + sliding window cross-validation)
 保存低波動蔬菜群的模型與資料序列化檔，用於對照高波動群，驗證特徵影響與模型穩定性，提升整體分析完整度。
